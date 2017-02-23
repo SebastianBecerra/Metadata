@@ -1,0 +1,95 @@
+@import 'https://fonts.google.com/specimen/Alegreya';
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+body{
+	background: #F5F5F5;
+	color: #67727A;
+	font-family: 'Alegreya', sans-serif;
+}
+h2{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #F5F5F5;
+}
+
+.banner{
+	width: 100%;
+}
+
+.hidden{
+	display: none;
+}
+#gmap{
+	width: 378px;
+	height: 400px;
+	margin-right: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	padding-left: 0;
+}
+.data{
+	margin-top:5%;
+}
+.data input{
+	display: inline-block;
+	width: 55%;
+	border-radius: 5px;
+}
+.data label{
+	width: 40%;
+	display: inline-block;
+	padding-top: 3%;
+	color: #fff;
+}
+#largeFile:after {
+	padding-top: 30%;
+	position:absolute;
+	width:60%;
+	max-width:800px;
+	content:"Sube una fotografía";
+	left:0;
+	right:0;
+	margin:100px auto;
+	text-align:center;
+	padding:50px 0px 50px 0px;
+	border-radius:10px;
+	border:5px dashed #03A9F4;
+	color:#03A9F4;
+	font-family:"Helvetica Neue", Helvetica, Arial;
+	font-size:30px; 
+}
+#largeFile:hover:after {
+  background: #B3E5FC;
+  color:#fff;
+  cursor:pointer;
+}
+#largeFile input#file-input {
+    width: 0px;
+    height: 0px;
+}
+.oculto{
+	padding:5% 5% 5% 10%;
+}
+#btnVolver{
+	padding-left: 0%;
+    padding-right: initial;
+}
+.datos{
+	background-color: #03A9F4;
+	height: 346px;
+	width: 56.333333%;
+}
+#titulo{
+	text-align: center;
+    padding-top: 5%;
+    font-size: 6em;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    color: #1976D2;
+}
